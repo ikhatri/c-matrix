@@ -14,8 +14,13 @@ class cmatrix {
         int num_cols();
         void print();
 
+        vector<T> get_row(int i) const;
+        vector<T> get_col(int i) const;
+        T dot(vector<T> x, vector<T> y) const;
+
         cmatrix operator+(const cmatrix& first) const;
         cmatrix operator-(const cmatrix& first) const;
+        cmatrix operator*(const cmatrix& first) const;
     
     protected:
         vector<T> vals;
