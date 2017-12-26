@@ -19,3 +19,6 @@ c-matrix currently supports the following operations:
     * cmatrix * double
 
 I'll add more as I have more time to work on this project.
+
+## Documentation
+For detailed documentation, please see the [wiki](https://github.com/ikhatri/c-matrix/wiki).
